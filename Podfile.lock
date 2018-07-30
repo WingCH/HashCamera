@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - RandomColorSwift (1.0.0)
+  - SwiftPhotoGallery (3.1.0)
+  - TagListView (1.1.0)
+  - ZHDropDownMenu (1.0.0)
+
+DEPENDENCIES:
+  - FMDB
+  - RandomColorSwift
+  - SwiftPhotoGallery
+  - TagListView (~> 1.0)
+  - ZHDropDownMenu
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  RandomColorSwift: 9f85058b721665d52d239ca166a913e083506444
+  SwiftPhotoGallery: 85ff48f685dafc5e84639bee5c74ddb4f0f221d3
+  TagListView: d0267a71393f3c73db5c9ea2f979ac1125fcab56
+  ZHDropDownMenu: aa2917b07820b9eba3dc98066f85257017821b65
+
+PODFILE CHECKSUM: 5763f85f9a183c054e462b8e1fc2f52f5f0bcd21
+
+COCOAPODS: 1.1.1

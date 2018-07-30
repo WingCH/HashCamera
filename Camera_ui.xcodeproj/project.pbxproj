@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A124A67509229B89CE9A6A /* Pods_Camera_ui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D59A971B80BCDDAE273CF4 /* Pods_Camera_ui.framework */; };
+		201AA2281E8A3D400094C456 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201AA2271E8A3D400094C456 /* CameraPreviewView.swift */; };
+		201C6C331E8F611700775205 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C6C321E8F611700775205 /* DBManager.swift */; };
+		201C6C351E8FB06A00775205 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C6C341E8FB06A00775205 /* MyPageViewController.swift */; };
+		201C6C371E8FB56E00775205 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C6C361E8FB56E00775205 /* CollectionViewController.swift */; };
 		2049100C1E63F7080006C887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2049100B1E63F7080006C887 /* AppDelegate.swift */; };
 		2049100E1E63F7080006C887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2049100D1E63F7080006C887 /* ViewController.swift */; };
 		204910111E63F7080006C887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2049100F1E63F7080006C887 /* Main.storyboard */; };
 		204910131E63F7080006C887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204910121E63F7080006C887 /* Assets.xcassets */; };
 		204910161E63F7080006C887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204910141E63F7080006C887 /* LaunchScreen.storyboard */; };
+		20C35FB41E795E1500A079C7 /* JDJellyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB11E795E1500A079C7 /* JDJellyButton.swift */; };
+		20C35FB51E795E1500A079C7 /* JDJellyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB21E795E1500A079C7 /* JDJellyButtonView.swift */; };
+		20C35FB61E795E1500A079C7 /* JDJellyMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB31E795E1500A079C7 /* JDJellyMainButton.swift */; };
+		20CA68F51E8A87960069DD08 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CA68F41E8A87960069DD08 /* PhotoCaptureDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D59A971B80BCDDAE273CF4 /* Pods_Camera_ui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camera_ui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C79C413EB8563519153BF7B /* Pods-Camera_ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera_ui.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camera_ui/Pods-Camera_ui.release.xcconfig"; sourceTree = "<group>"; };
+		201AA2271E8A3D400094C456 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		201C6C301E8F60BE00775205 /* FMDBTut-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDBTut-Bridging-Header.h"; sourceTree = "<group>"; };
+		201C6C321E8F611700775205 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		201C6C341E8FB06A00775205 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		201C6C361E8FB56E00775205 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		204910081E63F7080006C887 /* Camera_ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera_ui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2049100B1E63F7080006C887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2049100D1E63F7080006C887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,11 @@
 		204910121E63F7080006C887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204910151E63F7080006C887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204910171E63F7080006C887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C35FB11E795E1500A079C7 /* JDJellyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyButton.swift; sourceTree = "<group>"; };
+		20C35FB21E795E1500A079C7 /* JDJellyButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyButtonView.swift; sourceTree = "<group>"; };
+		20C35FB31E795E1500A079C7 /* JDJellyMainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyMainButton.swift; sourceTree = "<group>"; };
+		20CA68F41E8A87960069DD08 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		29DACD4A7866E129F0D91AFA /* Pods-Camera_ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera_ui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camera_ui/Pods-Camera_ui.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A124A67509229B89CE9A6A /* Pods_Camera_ui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201C6C311E8F60C400775205 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				201C6C321E8F611700775205 /* DBManager.swift */,
+				201C6C301E8F60BE00775205 /* FMDBTut-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
 		20490FFF1E63F7080006C887 = {
 			isa = PBXGroup;
 			children = (
 				2049100A1E63F7080006C887 /* Camera_ui */,
 				204910091E63F7080006C887 /* Products */,
+				58D0A068A8F59DEF8FA279FE /* Pods */,
+				22E2B133E08C626C040119E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,47 @@
 		2049100A1E63F7080006C887 /* Camera_ui */ = {
 			isa = PBXGroup;
 			children = (
+				201C6C311E8F60C400775205 /* FMDB */,
+				20C35FB71E795E1A00A079C7 /* JDJellyButton */,
 				2049100B1E63F7080006C887 /* AppDelegate.swift */,
+				201C6C341E8FB06A00775205 /* MyPageViewController.swift */,
 				2049100D1E63F7080006C887 /* ViewController.swift */,
+				201C6C361E8FB56E00775205 /* CollectionViewController.swift */,
 				2049100F1E63F7080006C887 /* Main.storyboard */,
+				201AA2271E8A3D400094C456 /* CameraPreviewView.swift */,
+				20CA68F41E8A87960069DD08 /* PhotoCaptureDelegate.swift */,
 				204910121E63F7080006C887 /* Assets.xcassets */,
 				204910141E63F7080006C887 /* LaunchScreen.storyboard */,
 				204910171E63F7080006C887 /* Info.plist */,
 			);
 			path = Camera_ui;
+			sourceTree = "<group>";
+		};
+		20C35FB71E795E1A00A079C7 /* JDJellyButton */ = {
+			isa = PBXGroup;
+			children = (
+				20C35FB11E795E1500A079C7 /* JDJellyButton.swift */,
+				20C35FB21E795E1500A079C7 /* JDJellyButtonView.swift */,
+				20C35FB31E795E1500A079C7 /* JDJellyMainButton.swift */,
+			);
+			name = JDJellyButton;
+			sourceTree = "<group>";
+		};
+		22E2B133E08C626C040119E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01D59A971B80BCDDAE273CF4 /* Pods_Camera_ui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58D0A068A8F59DEF8FA279FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29DACD4A7866E129F0D91AFA /* Pods-Camera_ui.debug.xcconfig */,
+				1C79C413EB8563519153BF7B /* Pods-Camera_ui.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2049101A1E63F7080006C887 /* Build configuration list for PBXNativeTarget "Camera_ui" */;
 			buildPhases = (
+				C98A1FCA48F11A504A9DEE98 /* [CP] Check Pods Manifest.lock */,
 				204910041E63F7080006C887 /* Sources */,
 				204910051E63F7080006C887 /* Frameworks */,
 				204910061E63F7080006C887 /* Resources */,
+				FD2EC3B0376F772864B60F5F /* [CP] Embed Pods Frameworks */,
+				3CD35E6C1D8404A2885A18B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +160,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Chan Hong Wing";
 				TargetAttributes = {
 					204910071E63F7080006C887 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AL869FRMV6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +201,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CD35E6C1D8404A2885A18B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camera_ui/Pods-Camera_ui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98A1FCA48F11A504A9DEE98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2EC3B0376F772864B60F5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camera_ui/Pods-Camera_ui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		204910041E63F7080006C887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C35FB41E795E1500A079C7 /* JDJellyButton.swift in Sources */,
+				201C6C351E8FB06A00775205 /* MyPageViewController.swift in Sources */,
 				2049100E1E63F7080006C887 /* ViewController.swift in Sources */,
+				201AA2281E8A3D400094C456 /* CameraPreviewView.swift in Sources */,
+				201C6C371E8FB56E00775205 /* CollectionViewController.swift in Sources */,
+				201C6C331E8F611700775205 /* DBManager.swift in Sources */,
+				20C35FB61E795E1500A079C7 /* JDJellyMainButton.swift in Sources */,
 				2049100C1E63F7080006C887 /* AppDelegate.swift in Sources */,
+				20CA68F51E8A87960069DD08 /* PhotoCaptureDelegate.swift in Sources */,
+				20C35FB51E795E1500A079C7 /* JDJellyButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +382,11 @@
 		};
 		2049101B1E63F7080006C887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DACD4A7866E129F0D91AFA /* Pods-Camera_ui.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL869FRMV6;
 				INFOPLIST_FILE = Camera_ui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wing.Camera-ui";
@@ -268,8 +397,11 @@
 		};
 		2049101C1E63F7080006C887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C79C413EB8563519153BF7B /* Pods-Camera_ui.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AL869FRMV6;
 				INFOPLIST_FILE = Camera_ui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wing.Camera-ui";
@@ -297,6 +429,7 @@
 				2049101C1E63F7080006C887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
