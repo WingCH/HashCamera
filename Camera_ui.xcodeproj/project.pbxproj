@@ -17,6 +17,7 @@
 		204910111E63F7080006C887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2049100F1E63F7080006C887 /* Main.storyboard */; };
 		204910131E63F7080006C887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204910121E63F7080006C887 /* Assets.xcassets */; };
 		204910161E63F7080006C887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204910141E63F7080006C887 /* LaunchScreen.storyboard */; };
+		2087C521210F003E009E779C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2087C520210F003E009E779C /* README.md */; };
 		20C35FB41E795E1500A079C7 /* JDJellyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB11E795E1500A079C7 /* JDJellyButton.swift */; };
 		20C35FB51E795E1500A079C7 /* JDJellyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB21E795E1500A079C7 /* JDJellyButtonView.swift */; };
 		20C35FB61E795E1500A079C7 /* JDJellyMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35FB31E795E1500A079C7 /* JDJellyMainButton.swift */; };
@@ -38,6 +39,7 @@
 		204910121E63F7080006C887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204910151E63F7080006C887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204910171E63F7080006C887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2087C520210F003E009E779C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		20C35FB11E795E1500A079C7 /* JDJellyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyButton.swift; sourceTree = "<group>"; };
 		20C35FB21E795E1500A079C7 /* JDJellyButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyButtonView.swift; sourceTree = "<group>"; };
 		20C35FB31E795E1500A079C7 /* JDJellyMainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDJellyMainButton.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				204910091E63F7080006C887 /* Products */,
 				58D0A068A8F59DEF8FA279FE /* Pods */,
 				22E2B133E08C626C040119E5 /* Frameworks */,
+				2087C520210F003E009E779C /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +198,7 @@
 			files = (
 				204910161E63F7080006C887 /* LaunchScreen.storyboard in Resources */,
 				204910131E63F7080006C887 /* Assets.xcassets in Resources */,
+				2087C521210F003E009E779C /* README.md in Resources */,
 				204910111E63F7080006C887 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
